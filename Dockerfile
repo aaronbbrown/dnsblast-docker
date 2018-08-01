@@ -8,4 +8,4 @@ RUN git clone https://github.com/jedisct1/dnsblast
 RUN cd dnsblast && \
     make
 
-ENTRYPOINT dnsblast/dnsblast
+CMD dnsblast/dnsblast
